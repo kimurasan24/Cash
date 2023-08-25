@@ -1,0 +1,69 @@
+# バージョン管理不要なディレクトリやファイル
+/.bundle
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Node.js
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+
+# React and TypeScript
+.tsbuildinfo
+/public
+
+# Ruby on Rails
+/config/master.key
+
+# MySQL
+/db/*.sql
+
+# RSpec
+/coverage
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Environment configuration
+.env
+.env.production
+
+# Ignore .DS_Store
+.DS_Store
+
+# Ignore other unneeded files
+*.swp
+*~
+.project
+.idea
+.secret
+
+# VSCode
+.vscode/
+
+# Docker
+/docker/mysql
+
+# Capistrano
+/releases
+/shared
+
+# Ignore Nginx & Unicorn config if not shared in the repository
+/config/nginx.conf
+/config/unicorn.rb
+
+# AWS
+/aws/credentials
+
+# CircleCI - Some users might want to keep this in the repository, so consider your needs.
+/.circleci/secrets
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+.env
