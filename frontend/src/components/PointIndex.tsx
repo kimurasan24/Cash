@@ -8,9 +8,9 @@ import { Image, Flex, Button, Grid, Box, Text, VStack } from '@chakra-ui/react';
 
 const PointIndex: React.FC<{ fetchNewsByKeyword: (keyword: string) => void }> = ({ fetchNewsByKeyword }) => {
   const buttonItems = [
-    { keyword: "楽天 ポイント", image: RakutenPoint },
-    { keyword: "ポンタ", image: Ponta },
-    { keyword: "Amazon ポイント", image: amazon },
+    { keyword: "ポイ活", image: RakutenPoint },
+    { keyword: "入会特典", image: Ponta },
+    { keyword: "入会キャンペーン", image: amazon },
     { keyword: "ポイント キャンペーン", image: Pointlogo }
   ];
   return(

@@ -8,7 +8,7 @@ import { Image, Flex, Button, Grid, Box, Text, VStack } from '@chakra-ui/react';
 
 const CreditIndex: React.FC<{ fetchNewsByKeyword: (keyword: string) => void }> = ({ fetchNewsByKeyword }) => {
   const buttonItems = [
-    { keyword: "ジェーシービー", image: JCB },
+    { keyword: "JCB カード", image: JCB },
     { keyword: "VISAカード", image: VISA },
     { keyword: "楽天カード", image: RakutenCard },
     { keyword: "カード キャンペーン", image: Creditlogo }

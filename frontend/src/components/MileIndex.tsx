@@ -10,8 +10,8 @@ const MileIndex: React.FC<{ fetchNewsByKeyword: (keyword: string) => void }> = (
   const buttonItems = [
     { keyword: "ANA マイル", image: ANA },
     { keyword: "JAL マイル", image: JAL },
-    { keyword: "マイル 入会", image: United },
-    { keyword: "マイル キャンペーン", image: Milelogo }
+    { keyword: "タッチ決済", image: United },
+    { keyword: "キャッシュバック", image: Milelogo }
   ];
   return(
     <>
