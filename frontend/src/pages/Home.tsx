@@ -12,7 +12,7 @@ const Home: React.FC = () => {
   useEffect(() => {
     const fetchInitialNews = async () => {
       try {
-        const response = await axios.get('http://localhost:3001/news', {
+        const response = await axios.get('https://cashlesstimes-front.onrender.com/news', {
           params: { keyword: "キャッシュレス" }
         });
         setNews(response.data);

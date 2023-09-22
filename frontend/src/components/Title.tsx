@@ -24,7 +24,7 @@ const Title: React.FC = () => {
           fontWeight="bold" 
           textAlign="center"
         >
-          お得なキャッシュレス関連ニュースを<br />ささっと確認
+          お得なキャッシュレス<br></br>関連ニュースを<br></br>ささっと確認
         </Heading>
       </Flex>
     </Flex>

@@ -7,7 +7,7 @@ const Header: React.FC = () => {
   return (
     <header>
       <Button as={Link} to="/" colorScheme="White" ml={{ base: "8px", md: "32px" }} mt="32px" mb={{ base: "8px", md: "0px" }} >
-      <Image src={Icon} alt="JCB Logo" boxSize={"160px"} />
+      <Image src={Icon} alt="Icon" boxSize={{ base: "60px", md: "120px" }} />
       </Button>
 
       <Box display="flex" justifyContent="center" padding="1rem">
@@ -15,15 +15,17 @@ const Header: React.FC = () => {
           as={Link} 
           to="/credit" 
           colorScheme="teal" 
-          fontSize="md" 
+          fontSize={{ base: "auto", md: "md" }}
           color="orange.300"
           bg="orange.100" 
           variant="ghost" 
           mr={{ base: "0", md: "80px" }}
           borderRight={{ base: "1px solid", md: "none" }}
           borderLeft={{ base: "1px solid", md: "none" }}
+          whiteSpace="normal"
+          maxWidth={{ base: "auto", md: "auto" }}
         >
-          クレジットNews
+          クレカ<br></br>News
         </Button>
         <Button 
           as={Link} 
@@ -35,9 +37,10 @@ const Header: React.FC = () => {
           variant="ghost" 
           mr={{ base: "0", md: "80px" }}
           borderRight={{ base: "1px solid", md: "none" }}
-          
+          whiteSpace="normal"
+          maxWidth={{ base: "auto", md: "auto" }}
         >
-          QR決済News
+          QR<br></br>News
         </Button>
         <Button 
           as={Link} 
@@ -49,8 +52,10 @@ const Header: React.FC = () => {
           variant="ghost" 
           mr={{ base: "0", md: "80px" }}
           borderRight={{ base: "1px solid", md: "none" }}
+          whiteSpace="normal"
+          maxWidth={{ base: "auto", md: "auto" }}
         >
-          ポイ活News
+          ポイ活<br></br>News
         </Button>
         <Button 
           as={Link} 
@@ -62,8 +67,10 @@ const Header: React.FC = () => {
           variant="ghost"
           mr={{ base: "0", md: "80px" }}
           borderRight={{ base: "1px solid", md: "none" }}
+          whiteSpace="normal"
+          maxWidth={{ base: "auto", md: "auto" }}
         >
-          マイルNews
+          マイル<br></br>News
         </Button>
       </Box>
     </header>
